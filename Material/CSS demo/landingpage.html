@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Read A Book</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+header{
+    background:url(https://static.timesofisrael.com/blogs/uploads/2020/04/summer-resting-book-relaxing.jpg);
+    height: 45em;
+    /* em means they are related to the font size,the sizes will be in proportion. */
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position-y: -10em;
+}
+
+
+
+nav ul{
+    float: right;
+    margin: 1em 8em;
+    /* yaxis xaxis--- */
+}
+
+nav ul li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-left: 2em;
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+.hero-container{
+    margin: 15em 0em;
+    float: left;
+    text-align: center;
+    width: 100vw;
+    /* Relative to 1% of the width of the viewport*	 */
+
+}
+
+.hero-container h1{
+    color: white;
+    font-size: 2.5em;
+    margin: -2.8em 0;
+}
+
+.hero-container h2{
+    margin: 3.9em 0;
+    font-size: 2.0em;
+    color: gold;
+    text-decoration: overline black;
+    background-color: black;
+    opacity: 0.5;
+
+}
+
+.hero-getstarted, .hero-explore, .button{
+    background:rgb(22, 22, 22);
+    color: gold;
+    font-size: 1em;
+    font-weight: 300;
+    border: 1px solid black;
+    padding: 10px 40px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.button:hover, .hero-getstarted:hover, .hero-explore:hover{
+    background:rgb(51, 51, 51);
+    color: gold;
+    border: 1px solid black;
+}
+
+.hero-container button:active{
+    background-color: rgb(19, 19, 19);
+}
+
+.about-table, .service-table{
+	margin: auto;
+}
+
+.about-table th{
+	padding: 30px;
+}
+
+#caption{
+	font-size: 1.5em;
+	color: gold;
+	background-color:black;
+	padding: 10px;
+	margin-top: 10px;
+	opacity: 0.8;
+}
+
+.portfolio-section{
+    margin-top: 8em;
+}
+
+.contact{
+    margin-top: 2em;
+}
+
+#contactid form{
+	width: 70%;
+	margin: auto;
+	padding: 20px;
+}
+
+#contactid th{
+	width: 50%;
+}
+
+#exampleEmailInput, #exampleRecipientInput{
+	width: 90%;
+	padding: 10px;
+	border: none;
+	background-color: lightgray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#exampleMessage{
+	width: 93%;
+	padding: 10px;
+	border: none;
+	background-color: lightgray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+label{
+	font-weight: bold;
+}
+
+form input[type="submit"]{
+    background:rgb(22, 22, 22);
+    color: gold;
+    font-size: 1em;
+    font-weight: 300;
+    border: 1px solid black;
+}
+
+form input[type="submit"]:hover{
+    background:rgb(51, 51, 51);
+    color: gold;
+    border: 1px solid black;
+}
+
+footer{
+    height: 4em;
+    clear: both;
+    color: white;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    padding-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: gold;
+}
+
+img[alt="dropdown"]{display: none;}
+
+@media only screen and (max-width: 830px) {
+/* body {
+  background-color: lightblue;
+}*/
+nav ul{
+    display: none;
+    width: 12em;
+    background-color: rgba(214, 214, 214, 0.253);
+    text-align: left;
+    position: absolute;
+    right: -4.3em;
+    top: 0.6em;
+
+}
+
+nav img[alt="dropdown"]{
+    display: block;
+    height: 5em;
+    float: right;
+}
+
+nav{
+    position: relative;
+}
+
+
+
+nav:hover ul{
+    display: block;
+}
+
+header{
+    height: 55em;
+    background-size:100%;
+    background-position-y: 0em;
+}
+
+
+
+.portfolio-section{
+    width: 40em;
+    margin: 5em auto;
+}
+
+img[alt="portfolio"]{
+    margin-top: 2em;
+}
+
+}
+
+
+@media only screen and (max-width: 421px){
+
+  img[alt="description"]{
+    margin-left:1.5em;
+  }
+    header{
+        background:url(https://i.ibb.co/ZTXDrkC/pexels-photo-997443.jpg);
+        height: 45em;
+        background-size:cover;
+        background-position-y: 0em;
+    }
+
+    .portfolio-section{
+        width: 100%;
+        margin: 5em auto;
+    }
+
+
+    .hero-container h2{
+        margin: 3.2em 0;
+        font-size: 2.5em;
+        background-color: black;
+    }
+
+
+
+}
+</style>
+</head>
+<body>
+
+ <header>
+        <nav>
+            <img src="https://ebace.aero/wp-content/themes/EBACE2016/assets/hamburger.png" alt="dropdown">
+            <ul>
+                <a href="#"><li class="active" style="color:gold;">Home</li></a>
+                <a href="#aboutid"><li>About</li></a>
+                <a href="#contactid"><li>Contact</li></a>
+            </ul>
+        </nav>
+        <div class="hero-container">
+            <h1>ReadABook.com</h1>
+            <h2>Today a Reader, Tomorrow a Leader</h2>
+            <button class="hero-getstarted">Get Started</button>
+            <button class="hero-explore">Explore</button>
+        </div>
+    </header>
+
+        <div class="container" id="aboutid">
+            <table width="80%" class="about-table">
+            <tr>
+                <th><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDEojtYC-qvkixQ1Dw6CrOTa8-dyARWo9mrw&usqp=CAU"
+                        alt="description"
+                        height="420" width="400"></th>
+                <th>
+                    <h1>About Us</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, porro nisi earum placeat voluptatibus, neque velit mollitia itaque harum nesciunt deserunt illo deleniti repudiandae rem ratione voluptatem vitae, est nihil!
+                    </p>
+                    <button class="button">Continue</button>
+                </th>
+            </tr>
+            </table>
+        </div>
+
+<div class="portfolio-section">
+    <h1 id="portfolio" align="center">Services We Offer</h1>
+          <table width="70%" class="service-table">
+          <tr>
+
+            <th><img src="https://assets.entrepreneur.com/content/3x2/2000/20150827211532-reading-book-in-office-books-read.jpeg" alt="portfolio" height="400" width="300">
+            <p id="caption">Read a Book</p>
+            </th>
+
+            <th><img src="https://www.daysoftheyear.com/wp-content/uploads/buy-a-book-day-scaled.jpg" alt="portfolio" height="400" width="300">
+            <p id="caption">Order a Book</p>
+            </th>
+
+            <th><img src="https://dhwwtar19mmjy.cloudfront.net/lightpdf/wp-content/uploads/2018/06/free-pdf-website.jpg" alt="portfolio" height="400" width="300">
+            <p id="caption">Download a Book</p>
+			</th>
+
+          </tr>
+        </table>
+</div>
+</div>
+
+
+<div class="container contact-section" id="contactid">
+    <h1 class="contact" align="center">Contact</h1>
+<form>
+    <div>
+    <table width="100%">
+    <tr>
+    <td>
+      <div>
+        <label for="exampleEmailInput">Your email</label><br>
+        <input class="u-full-width" type="email" placeholder="Enter Email" id="exampleEmailInput">
+      </div>
+    </td>
+
+    <td>
+      <div>
+        <label for="exampleRecipientInput">Reason for contacting</label><br>
+        <select class="u-full-width" id="exampleRecipientInput">
+          <option value="Option 1">Questions</option>
+          <option value="Option 2">Website</option>
+          <option value="Option 3">Software</option>
+        </select>
+      </div>
+    </td>
+    </tr>
+    </table>
+    </div>
+
+    <label for="exampleMessage">Message</label><br>
+    <textarea class="u-full-width" placeholder="Hello …" id="exampleMessage"></textarea><br>
+
+    <label class="example-send-yourself-copy">
+      <input type="checkbox">
+      <span class="label-body">Send a copy to yourself</span><br>
+    </label>
+
+    <input class="button" type="submit" value="SUBMIT">
+
+  </form>
+</div>
+
+   <footer>
+       &copy;2020 <br>
+       made by <a href="https://www.linkedin.com/in/ritwika-bhattacharjee-930660172/" target="_blank">Ritwika</a><br>
+       brought to you by <a href="https://www.linkedin.com/in/maheysh-v-b29160191/" target="_blank">Maheysh</a>
+   </footer>
+
+</body>
+</html>
