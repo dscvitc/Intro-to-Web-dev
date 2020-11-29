@@ -29,6 +29,6 @@ git push origin branch-name
 ### 3. Deploy your site using any of the hosting services.
 ### 4. Submit link of your portfolio in the below link.
 
-*[ Form to submit the link ](https://docs.google.com/forms/d/e/1FAIpQLSeWZhPAGB-E0IsRQ9BuAnNrgtCi8ZDIHkNEw_gBEijjkC7ZvQ/viewform)
+*[ Form to submit the portfolio link ](https://docs.google.com/forms/d/e/1FAIpQLSeWZhPAGB-E0IsRQ9BuAnNrgtCi8ZDIHkNEw_gBEijjkC7ZvQ/viewform)
 
 *[ Link for video ](https://drive.google.com/file/d/1aeyehbDPD1IDqkk5yCgfQp30BuDvRlkE/view?usp=sharing)
