@@ -7,7 +7,7 @@
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/your-username/Intro-to-Web-dev.git
+git clone https://github.com/dscvitc/Intro-to-Web-dev
 ```
 
 * Complete the task. (Details of the task are provided in the section below)
