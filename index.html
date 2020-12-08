@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      html {
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .container::after,
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .title {
+        color: grey;
+      }
+
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+.portfoliocss{
+color: pink;
+}
+      .button:hover {
+        background-color: #555;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      .bottombar{
+        padding: 50px;
+        text-align: left;
+        background-color: #474e5d;
+        color: #e6e6e6; 
+      }
+.ps{
+  color: crimson;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  position: relative;
+  animation-fill-mode: both;
+}
+
+@keyframes example {
+  0%   {color: red; left:50px;}
+  25%  {color: green; left:200px;}
+  50%  {color: rgb(224, 170, 19); left:400px;}
+  75%  {color: rgba(62, 13, 109, 0.514); left:200px;}
+  100% {color: red; left:50px;}
+}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="about-section">
+      <h1 style="color: lightblue;text-shadow: 4px 5px 5px #333; word-spacing:8px;font-family: tahoma"><b>AKRITI YADAV</b></h1>
+      <p style="font-family:cursive "><i>&ldquo; Passion And Inspiration At Work &rdquo;</i></p>
+      <h3 class="portfoliocss">
+        MY PORTFOLIO
+      </h3>
+    </div>
+    <h2 style="text-align: center;color:crimson;"><u>Works</u></h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img
+            src="src/pinghub.jpg"
+            alt="P!NG HUB"
+            style="width: 100%;"
+          />
+          <div class="container">
+            <h2>The P!nG Hub</h2>
+            <p class="title">Social media platform</p>
+            <p><i>&ldquo; Ping people online.&rdquo;</i></p>
+            <p class="title"><ul><li style="color: crimson;">Html</li><li style="color: green;">CSS</li></ul></p>
+
+            <p><a href="https://eh0o5.csb.app/">Link to project</a></p>
+            <p><button class="button")><nav
+        onclick="alert('THANKS FOR LIKING P!NG HUB!!!');">Like &#10084;&#65039;</nav></button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src= "src/signup.jpg" alt="SignUp"
+          style="width: 100%;" />
+          <div class="container">
+            <h2>Sign Up Page</h2>
+             <p class="title">Sign up page for users</p>
+             <p><i>&ldquo; Every virtual journey starts with a Sign Up!&rdquo; </i></p>
+            <p class="title"><ul><li style="color: crimson;">Html</li><li style="color: green;">CSS</li></ul></p>
+            <p><a href="https://qr5ke.csb.app/">Link to project</a></p><p><button class="button")><nav
+        onclick="alert('THANKS FOR LIKING THE SIGN UP PAGE !!!');">Like &#10084;&#65039;</nav></button></p>
+          </div>
+        </div>
+      </div>
+        
+      <div class="column">
+        <div class="card">
+          <img
+            src="src/ZephyrCar.PNG"
+            alt="Zephyr"
+            style="width: 100%;"
+          />
+          <div class="container">
+            <h2>Zephyr Cars Corp.</h2>
+            <p class="title">Homepage cum Sign up page to Zephyr Cars Corp.</p>
+            <p><i>&ldquo;Welcome to the World of Cars.&rdquo;</i></p>
+            <p class="title"><ul><li style="color: crimson;">Html</li><li style="color: green;">CSS</li></ul></p>
+            <p><a href="https://sirr1.csb.app/">Link to project</a></p>
+            <p><button class="button")><nav
+        onclick="alert('THANKS FOR LIKING THE ZEPHYR CARS CORP. PAGE !!!');">Like &#10084;&#65039;</nav></button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="ps">
+          Please feel free to give feedback.
+        </p>
+    <div class="bottombar">
+      <div style="margin-left: 30%"><p>Contact:</p>
+       <p><i class="fa fa-google"></i> : 94akritiyadav@gmail.com</p>
+        <p><i class="fa fa-github"></i> : 94Akriti</p>
+        <p><i class="fa fa-linkedin-square"></i> : Akriti Yadav</p>
+</div>
+    </div>
+  </body>
+</html>
